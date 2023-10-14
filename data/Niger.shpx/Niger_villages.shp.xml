@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr"><Esri><MetaID>{7D8ADAD4-D352-484E-8FBA-5C92AFEA9ED5}</MetaID><CreaDate>20101130</CreaDate><CreaTime>09152600</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DefineProjection" Date="20101130" Time="091526">DefineProjection Niger_villages GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] Niger_villages</Process></lineage></DataProperties></Esri></metadata>
