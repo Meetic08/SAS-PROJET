@@ -33,23 +33,26 @@ Faire l'analyse et sortir principalement des plots
 
 
 ### Les variables
-sexe,
 
-age,
+sexe : Genre  \\ '1: Masculin' '2: Féminin' \\ 
 
-milieu,
+age : Age en années \\ Num: 0 to 130 \\ 
 
-s02q03 (a-t-il fait ou fait-il des études actuellement dans une école formelle?)
+milieu : Milieu residence \\ '1: Urbain' '2: Rural' \\ 
 
-s02q05 (Est ce que X a suivi une école non formelle ou une formation non-formelle?)
+s02q03 : X a-t-il fait ou fait-il des études actuellement dans une école formelle \\ '1: Oui' '2: Non' \\ 
 
-s02q14 (Quel est le niveau d'études suivi par X au cours de l'année 2017/2018?)
+s02q05 : Est ce que X a suivi une école non formelle ou un formation non formelle 
+\\ '1: Oui' '2: Non' \\ 
 
-s02q16 (Quelle est la classe fréquentée par X  dans le niveau déclaré au cours de l'année 2017/2018?)
+s02q14 : Quel est le niveau d'études suivi par X au cours de l'année 2017/18 ? \\ '1: Maternelle' '2: Primaire' '3: Secondaire 1  (Post Primaire) générale' '4: Secondaire 1  (Post Primaire) technique' '5: Secondaire 2 générale'... \\ 
 
-s02q29 (Quel est le niveau d'études le plus élevé atteint par X?)
+s02q16 : Quelle est la classe fréquente par X dans le niveau déclaré en 2017/18 \\ '1: 1ère année' '2: 2ème année' '3: 3ème année' '4: 4ème année' '5: 5ème année'... \\ 
 
-s02q31 (Quelle est la dernière classe fréquentée par X dans le niveau déclaré?)
+s02q29 : Quel est le niveau d'études le plus élevé atteint par X? \\ '1: Maternelle' '2: Primaire' '3: Secondaire 1  (Post Primaire) générale' '4: Secondaire 1  (Post Primaire) technique' '5: Secondaire 2 générale'... \\ 
+
+s02q31 : Quelle est la dernière classe fréquente par X  dans le niveau déclaré \\ '1: 1ère année' '2: 2ème année' '3: 3ème année' '4: 4ème année' '5: 5ème année'... \\ 
+
 
 
 ### Clés de correspondance 
