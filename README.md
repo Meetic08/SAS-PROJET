@@ -55,10 +55,14 @@ s02q31 : Quelle est la dernière classe fréquente par X  dans le niveau déclar
 
 
 
+
 ### Clés de correspondance 
 
 "grappe"="grappe",
+
 "vague"="vague",
+
  "id_menage"="menage",
+ 
  "s01q00a"="numind")
 
