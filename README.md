@@ -43,3 +43,7 @@ s02q14 (Quel est le niveau d'études suivi par X au cours de l'année 2017/2018?
 s02q16 (Quelle est la classe fréquentée par X  dans le niveau déclaré au cours de l'année 2017/2018?)
 s02q29 (Quel est le niveau d'études le plus élevé atteint par X?)
 s02q31 (Quelle est la dernière classe fréquentée par X dans le niveau déclaré?)
+
+
+### Clés de correspondance 
+
