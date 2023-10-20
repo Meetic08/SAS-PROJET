@@ -1,6 +1,6 @@
 # SAS-PROJET-grp4
 
-test initiation git 
+# Attention changer le libname si vous tourner les code
 
 ## Exposé de l'analyse
 
