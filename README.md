@@ -66,3 +66,11 @@ s02q31 : Quelle est la dernière classe fréquente par X  dans le niveau déclar
  
  "s01q00a"="numind")
 
+
+## Dossier script
+
+Dans le dossier __script__ se trouve deux script sous language SAS et un script R. Le premier nommé _wrangling_ nous a servi pour le traitement et la mise en forme des données et le second _plotsSAS_ a servi générer le différents graphiques. Ces graphes sont stockés dans le dossier __resultat__. Le script R reproduit le même graphes que ceux généré avec le script SAS.
+
+## Dossier resultat
+
+Dans le dossier resultat se trouve les graphiques générés avec le code SAS et R.
