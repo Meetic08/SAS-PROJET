@@ -7,14 +7,13 @@
 Dans le cadre de notre projet de groupe, nous proposons une analyse sur le niveau d'éducation au Niger.
 Nous utiliserons principalement des données issues de l'Enquête Harmonisée sur le Conditions de Vie des 
 Ménages conduite au Niger par l'Institut National de la statistique entre 2018 et 2019.
-Cette enquête sur un échantillon de 35470 individus représentatif de la population nigérienne permet à la foiS une analyse sur les individus et les ménages. 
+Cette enquête sur un échantillon de 35470 individus représentatif de la population nigérienne permet à la fois une analyse sur les individus et les ménages. 
 
 Pour notre part, nous mènerons une analyse un peu plus agrégée. En effet, nous nous intéressons à l'évolution du niveau d'éducation moyen de la population nigérienne.
 Notre analyse tâchera de repondre aux questions suivantes:
-* s'il existe une différence de niveau d'éducation entre les femmes et les hommes?
+* Comment le niveu d'éducation moyen de la population nigérienne a évolué au fil des générations?
+* Existe-t-il une différence de niveau d'éducation entre les femmes et les hommes?
 * Existe-t-il un ligne entre le milieu de résidence (rural vs urbain) et le niveau d'éducation?
-* Comment ces différences fonction du genre et du sexe ont-elles variée dans le temps?
-* si cette différence existe est-elle uniformément repartie sur le territoire nigérien ?
 
 
 ## Les différentes étapes d'analyse
