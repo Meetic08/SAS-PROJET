@@ -7,9 +7,10 @@
 Dans le cadre de notre projet de groupe, nous proposons une analyse sur le niveau d'éducation au Niger.
 Nous utiliserons principalement des données issues de l'Enquête Harmonisée sur le Conditions de Vie des 
 Ménages conduite au Niger par l'Institut National de la statistique entre 2018 et 2019.
-Cette enquête représentative de la population nigérienne permet à la foiS une analyse sur les individus et les ménages. 
+Cette enquête sur un échantillon de 35470 individus représentatif de la population nigérienne permet à la foiS une analyse sur les individus et les ménages. 
 
-Pour notre part, nous mènerons une analyse un peu plus agrégée. En effet, nous nous demanderons:
+Pour notre part, nous mènerons une analyse un peu plus agrégée. En effet, nous nous intéressons à l'évolution du niveau d'éducation moyen de la population nigérienne.
+Notre analyse tâchera de repondre aux questions suivantes:
 * s'il existe une différence de niveau d'éducation entre les femmes et les hommes?
 * Existe-t-il un ligne entre le milieu de résidence (rural vs urbain) et le niveau d'éducation?
 * Comment ces différences fonction du genre et du sexe ont-elles variée dans le temps?
@@ -18,21 +19,26 @@ Pour notre part, nous mènerons une analyse un peu plus agrégée. En effet, nou
 
 ## Les différentes étapes d'analyse
 
-### Etape 1
-Joindre les deux bases de données
+### Etape 1: Joindre les tables de données
+Nous disposons de deux tables de données issues de l'enquête sus mentionnée. 
+La première table nommée individus regroupe les informations propres aux individus notamment l'âge, le genre, le milieu d'habitation ou la région d'habitation.
+La seconde table présente de manière spécifique des informations exhaustives sur le parcours scolaire de chaque individu.
+Pour pouvoir croiser les caractérisques individuelles des enquêtés et les informations sur leur parcours scolaire, nous constituons une table commune à partir de nos deux tables de données.
 
-### Etape 2 
-Construire le nombre d'années études de chaque individu ; nous disposons d'informations parcellaires 
-dans les variables s02q14, s02q16, s02q29 et s02q31
+#### Clés de correspondance 
 
-### Etape 3
-Construire des classes d'âges
+"grappe"="grappe",
 
-### Etape 5
-Faire l'analyse et sortir principalement des plots
+"vague"="vague",
 
+ "id_menage"="menage",
+ 
+ "s01q00a"="numind"
 
-### Les variables
+### Etape 2: Reconstituer le nombre d'années études de chaque individu ; 
+Nous disposons d'informations dispersées dans plusieurs variables pour reconstituer le nombre d'année de scolarité de chaque individu. Ces informations se trouvent principalement dans les variables s02q14, s02q16, s02q29 et s02q31. A partir de ces variables, nous reconstituons le nombre d'années d'études de chaque individu de notre table de données.
+
+#### Les variables
 
 sexe : Genre  \\ '1: Masculin' '2: Féminin' \\ 
 
@@ -54,17 +60,18 @@ s02q29 : Quel est le niveau d'études le plus élevé atteint par X? \\ '1: Mate
 s02q31 : Quelle est la dernière classe fréquente par X  dans le niveau déclaré \\ '1: 1ère année' '2: 2ème année' '3: 3ème année' '4: 4ème année' '5: 5ème année'... \\ 
 
 
+### Etape 3 : Construire des classes d'âges
+A partir de la variable age, nous construisons des cohortes ou classes d'âge de 5 années. Nous ne tenons que les individus nés entre 1950 et 2000.
+
+### Etape 5
+Notre analyse commence par une brêve description de la composition de notre échantillon à travers quelques statistiques descriptives. On présente la répartion des individus par genre, par milieu d'habitation.
+
+Nous présentons les résultats de nos analyses à l'aide de trois graphiques:
+* le premier présente l'évolution du nombre d'années d'études moyen selon le genre et la génération de naissance.
+* le second présente l'évolution du nombre d'années d'études moyen selon le genre, la génération de naissance et le milieu de résidence.
+* et le dernier présente l'évolution du nombre d'années d'études moyen selon le genre, la génération de naissance et la région de résidence.
 
 
-### Clés de correspondance 
-
-"grappe"="grappe",
-
-"vague"="vague",
-
- "id_menage"="menage",
- 
- "s01q00a"="numind"
 
 
 ## Dossier `Programme`
