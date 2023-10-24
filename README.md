@@ -13,7 +13,7 @@ Pour notre part, nous mènerons une analyse un peu plus agrégée. En effet, nou
 Notre analyse tâchera de repondre aux questions suivantes:
 * Comment le niveu d'éducation moyen de la population nigérienne a évolué au fil des générations?
 * Existe-t-il une différence de niveau d'éducation entre les femmes et les hommes?
-* Existe-t-il un ligne entre le milieu de résidence (rural vs urbain) et le niveau d'éducation?
+* Existe-t-il un lien entre le milieu de résidence (rural vs urbain) et le niveau d'éducation?
 
 
 ## Les différentes étapes d'analyse
@@ -22,7 +22,7 @@ Notre analyse tâchera de repondre aux questions suivantes:
 Nous disposons de deux tables de données issues de l'enquête sus mentionnée. 
 La première table nommée individus regroupe les informations propres aux individus notamment l'âge, le genre, le milieu d'habitation ou la région d'habitation.
 La seconde table présente de manière spécifique des informations exhaustives sur le parcours scolaire de chaque individu.
-Pour pouvoir croiser les caractérisques individuelles des enquêtés et les informations sur leur parcours scolaire, nous constituons une table commune à partir de nos deux tables de données.
+Pour pouvoir croiser les caractéristiques individuelles des enquêtés et les informations sur leur parcours scolaire, nous constituons une table commune à partir de nos deux tables de données.
 
 #### Clés de correspondance 
 
@@ -63,7 +63,7 @@ s02q31 : Quelle est la dernière classe fréquente par X  dans le niveau déclar
 A partir de la variable age, nous construisons des cohortes ou classes d'âge de 5 années. Nous ne tenons que les individus nés entre 1950 et 2000.
 
 ### Etape 5
-Notre analyse commence par une brêve description de la composition de notre échantillon à travers quelques statistiques descriptives. On présente la répartion des individus par genre, par milieu d'habitation.
+Notre analyse commence par une brêve description de la composition de notre échantillon à travers quelques statistiques descriptives. On présente la répartition des individus par genre, par milieu d'habitation.
 
 Nous présentons les résultats de nos analyses à l'aide de trois graphiques:
 * le premier présente l'évolution du nombre d'années d'études moyen selon le genre et la génération de naissance.
