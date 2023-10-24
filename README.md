@@ -9,7 +9,7 @@ Nous utiliserons principalement des données issues de l'Enquête Harmonisée su
 Ménages conduite au Niger par l'Institut National de la statistique entre 2018 et 2019.
 Cette enquête représentative de la population nigérienne permet à la foiS une analyse sur les individus et les ménages. 
 
-Pour notre par, nous ménerons une analyse un peu plus agrégée. En effet, nous nous demanderons:
+Pour notre part, nous mènerons une analyse un peu plus agrégée. En effet, nous nous demanderons:
 * s'il existe une différence de niveau d'éducation entre les femmes et les hommes?
 * Existe-t-il un ligne entre le milieu de résidence (rural vs urbain) et le niveau d'éducation?
 * Comment ces différences fonction du genre et du sexe ont-elles variée dans le temps?
@@ -64,13 +64,13 @@ s02q31 : Quelle est la dernière classe fréquente par X  dans le niveau déclar
 
  "id_menage"="menage",
  
- "s01q00a"="numind")
+ "s01q00a"="numind"
 
 
-## Dossier script
+## Dossier Programme
 
-Dans le dossier __script__ se trouve deux script sous language SAS et un script R. Le premier nommé _wrangling_ nous a servi pour le traitement et la mise en forme des données et le second _plotsSAS_ a servi générer le différents graphiques. Ces graphes sont stockés dans le dossier __resultat__. Le script R reproduit le même graphes que ceux généré avec le script SAS.
+Dans le dossier 'Programme' se trouve deux script sous language SAS et un script R. Le premier nommé 'wrangling' nous a servi pour le traitement et la mise en forme des données et le second 'plotsSAS' a servi générer les différents graphiques. Ces graphes sont stockés dans le dossier 'Projet'. Le script R reproduit le même graphes que ceux généré avec le script SAS.
 
-## Dossier resultat
+## Dossier 'Projet'
 
-Dans le dossier resultat se trouve les graphiques générés avec le code SAS et R.
+Dans le dossier 'Projet' se trouve les graphiques générés avec le code SAS et R.
