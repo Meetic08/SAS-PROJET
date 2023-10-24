@@ -67,10 +67,10 @@ s02q31 : Quelle est la dernière classe fréquente par X  dans le niveau déclar
  "s01q00a"="numind"
 
 
-## Dossier Programme
+## Dossier `Programme`
 
-Dans le dossier 'Programme' se trouve deux script sous language SAS et un script R. Le premier nommé 'wrangling' nous a servi pour le traitement et la mise en forme des données et le second 'plotsSAS' a servi générer les différents graphiques. Ces graphes sont stockés dans le dossier 'Projet'. Le script R reproduit le même graphes que ceux généré avec le script SAS.
+Dans le dossier `Programme` se trouve deux script sous language SAS et un script R. Le premier nommé `wrangling` nous a servi pour le traitement et la mise en forme des données et le second `plotsSAS` a servi générer les différents graphiques. Ces graphes sont stockés dans le dossier `Projet`. Le script R reproduit le même graphes que ceux généré avec le script SAS.
 
-## Dossier 'Projet'
+## Dossier `Projet`
 
-Dans le dossier 'Projet' se trouve les graphiques générés avec le code SAS et R.
+Dans le dossier `Projet` se trouve les graphiques générés avec le code SAS et R.
