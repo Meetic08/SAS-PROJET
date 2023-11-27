@@ -1,4 +1,4 @@
-/* Définition de libname pour faciliter l'accèes aux dossiers
+/* Définition de libname pour faciliter l'accès aux dossiers
 d'importation et de stockage des données et des résultats;*/
 libname indata "./data";
 
